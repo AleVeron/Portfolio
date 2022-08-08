@@ -114,6 +114,9 @@ body {
     font-size: 10px
 }
 
+.buttonCv{
+    border-radius: 125px;
+}
 
 /* ICONS */
 .icons {

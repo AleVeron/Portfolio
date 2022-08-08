@@ -13,7 +13,7 @@ export default function Footer() {
                     <i class="fa fa-google"></i>
                 </a>
                 <a href={AlejoVeronCurriculum} download class="icon icon--linkedin">
-                    <img  src="https://svgshare.com/i/juX.svg" alt="cv" />
+                    <img className='buttonCv' src="http://imgfz.com/i/9Yz4Ar6.png" alt="cv" />
                 </a>
                 <a href="https://www.linkedin.com/in/alejo-veron-dev/" class="icon icon--linkedin">
                     <i class="fa fa-linkedin"></i>
