@@ -66,7 +66,7 @@ body {
 }
 
 .divMask:hover {
-    transition-duration: 1.5s;
+    transition-duration: 2s;
     background-color: #090b0c21;
 }
 
