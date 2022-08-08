@@ -11,9 +11,10 @@ export default function Navbar() {
                 </button>
                     <div class="collapse navbar-collapse justify-content-around" id="navbar20">
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item"> <a class="nav-link" href="#">Home</a> </li>
-                            <li class="nav-item"> <a class="nav-link" href="#">Contactus</a> </li>
-                            <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#home">Home</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#Proyects">Proyects</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#skills">Skills</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#">About</a></li>
                         </ul>
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item mx-1"> <a class="nav-link" href="https://github.com/AleVeron">

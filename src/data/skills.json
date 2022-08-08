@@ -1,0 +1,42 @@
+{"skills": [
+    {
+        "url": "http://imgfz.com/i/dM9Agnr.png",
+        "name": "Html",
+        "id": 1
+    },
+    {
+        "url": "http://imgfz.com/i/Q2z6fAm.png",
+        "name": "Css",
+        "id": 2
+    },
+    {
+        "url": "http://imgfz.com/i/6c4OMkz.png",
+        "name": "Javascript",
+        "id": 3
+    },
+    {
+        "url": "http://imgfz.com/i/T74Jb5c.png",
+        "name": "Github",
+        "id": 4
+    },
+    {
+        "url": "http://imgfz.com/i/bisHaWu.png",
+        "name": "MongoDB",
+        "id": 5
+    },
+    {
+        "url": "http://imgfz.com/i/BjOGvgX.png",
+        "name": "NodeJs",
+        "id": 6
+    },
+    {
+        "url": "http://imgfz.com/i/6ZWSyMX.png",
+        "name": "ReactJs",
+        "id": 7
+    },
+    {
+        "url": "http://imgfz.com/i/hN2wjQz.png",
+        "name": "Tailwind",
+        "id": 8
+    }
+]}
