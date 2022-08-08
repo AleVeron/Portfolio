@@ -1,0 +1,46 @@
+{
+   "proyects":[ {
+        "name": "MyTinerary",
+        "image": "http://imgfz.com/i/IBRy7Uj.png",
+        "linkGithub": "https://github.com/AleVeron/mytinerary-veron",
+        "linkDeploy": "https://mytinerary-veron.herokuapp.com/home",
+        "technology": "https://static.platzi.com/media/blog/mern-stack-284eedb6-ee6b-4441-b181-5064a453a15a.png"
+    },
+    {
+        "name": "ReactJsAV",
+        "image": "http://imgfz.com/i/LJjN5Im.png",
+        "linkGithub": "https://github.com/AleVeron/ProyectoReactJSAV",
+        "linkDeploy": "",
+        "technology": "https://digital55.com/wp-content/uploads/2022/01/%C2%BFQue%CC%81-cualidades-debe-tener-un-desarrollador-especialista-en-React.png"
+        
+    },
+    {
+        "name": "MindyPetshop",
+        "image": "http://imgfz.com/i/e7njywd.png",
+        "linkGithub": "https://github.com/AleVeron/Mindy-Petshop",
+        "linkDeploy": "https://aleveron.github.io/Mindy-Petshop/",
+        "technology": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    {
+        "name": "JavaScript-AV",
+        "image": "http://imgfz.com/i/s7gfGw4.png",
+        "linkGithub": "https://github.com/AleVeron/JavaScript-AV",
+        "linkDeploy": "https://aleveron.github.io/JavaScript-AV/index.html",
+        "technology": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    {
+        "name": "FutureGamers",
+        "image": "http://imgfz.com/i/lk4pVq5.png",
+        "linkGithub": "https://github.com/AleVeron/FutureGamers",
+        "linkDeploy": "https://aleveron.github.io/FutureGamers/",
+        "technology": "https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw"
+    },
+    {
+        "name": "Amazing Events",
+        "image": "http://imgfz.com/i/TLxBrgK.png",
+        "linkGithub": "https://github.com/AleVeron/AmzingEvts",
+        "linkDeploy": "https://aleveron.github.io/AmzingEvts/",
+        "technology": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+    }
+]
+}
