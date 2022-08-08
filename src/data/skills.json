@@ -38,5 +38,20 @@
         "url": "http://imgfz.com/i/hN2wjQz.png",
         "name": "Tailwind",
         "id": 8
+    },
+    {
+        "url": "https://svgshare.com/i/juh.svg",
+        "name": "Bootstrap",
+        "id": 9
+    },
+    {
+        "url": "https://svgshare.com/i/juq.svg",
+        "name": "Redux",
+        "id": 11
+    },
+    {
+        "url": "https://svgshare.com/i/ju2.svg",
+        "name": "Heroku",
+        "id": 12
     }
 ]}

@@ -7,37 +7,39 @@
 
 /*NAVBAR*/
 
-.navbar{
+.navbar {
     background-color: rgb(0, 60, 128) !important;
 }
 
 /*HERO*/
 
-.hero{
+.hero {
     height: 900px;
 }
 
-.heroTitle{
+.heroTitle {
     color: white;
     font-size: 70px;
     font-style: italic;
 }
-.heroSubtitle{
+
+.heroSubtitle {
     color: gray;
     font-size: 50px;
     font-style: italic;
 }
 
 
-/* MAIN */ 
+/* MAIN */
 
-.linksMain{
-    text-decoration: none !important; 
+.linksMain {
+    text-decoration: none !important;
     color: rgb(206, 201, 201);
     font-size: 18px;
     font-weight: bold;
 }
-.linksMain:hover{
+
+.linksMain:hover {
     color: rgb(9, 9, 9);
 }
 
@@ -54,16 +56,17 @@ body {
     border-radius: 13px;
     padding: 0px;
     width: 100%;
-    height: 400px;    
+    height: 400px;
 }
 
-.divMask{
+.divMask {
     height: 100%;
     width: 100%;
     background-color: #090b0ca7;
 }
-.divMask:hover{
-    background-color:#090b0c21 ;
+
+.divMask:hover {
+    background-color: #090b0c21;
 }
 
 .info {
@@ -76,6 +79,7 @@ body {
 .info-yellow {
     background-color: #232e38c9;
 }
+
 .info-yellow:hover {
     background-color: #484848c0;
 }
@@ -111,91 +115,127 @@ body {
 }
 
 
-/* ICONS */ 
-.icons{
-    column-gap:25px;
+/* ICONS */
+.icons {
+    column-gap: 25px;
     background-color: transparent;
-    height: 400px;
+    height: 200px;
 }
-.icon{
-    width:50px;
-    height:50px;
+
+.icon {
+    width: 50px;
+    height: 50px;
     display: inline-flex;
-    align-items:center;
-    justify-content:center;
-    text-decoration:none;
-    font-size:22px;
-    color:#fff;
-    border-radius:50%;
-    outline:2px solid #fff;
-    transition-property : outline-offset , outline-color ,
-    background-color;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    transition-property: outline-offset, outline-color,
+        background-color;
     transition-duration: .25s;
 }
-.icon:hover{
+
+.icon:hover {
     outline-offset: 4px;
 }
-.icon:hover i{
+
+.icon:hover i {
     animation: shake .25px;
 }
-.icon--instagram:hover{
-    background-image: radial-gradient(circle at 30% 107% ,
-    #fdf497 0%, #fdf497 5% , #fd5949 45%,
-    #d6249f 60%, #285AEB 90%);
-    outline-color:#a02d76;
+
+.icon--instagram:hover {
+    background-image: radial-gradient(circle at 30% 107%,
+            #fdf497 0%, #fdf497 5%, #fd5949 45%,
+            #d6249f 60%, #285AEB 90%);
+    outline-color: #a02d76;
 }
-.icon--twitter:hover{
-    background-color:#1da1f2;
+
+.icon--twitter:hover {
+    background-color: #1da1f2;
     outline-color: #1da1f2;
 }
-.icon--linkedin:hover{
-    background-color:#0077b5;
+
+.icon--linkedin:hover {
+    background-color: #0077b5;
     outline-color: #0077b5;
 }
-.icon--facebook:hover{
-    background-color:#301ce4;
+
+.icon--facebook:hover {
+    background-color: #301ce4;
     outline-color: #0a06f3;
 }
-@keyframes shake{
-    10%{transform:rotate(-15deg);}
-    20%{transform:rotate(-15deg);}
-    30%{transform:rotate(-15deg);}
-    40%{transform:rotate(-15deg);}
+
+@keyframes shake {
+    10% {
+        transform: rotate(-15deg);
+    }
+
+    20% {
+        transform: rotate(-15deg);
+    }
+
+    30% {
+        transform: rotate(-15deg);
+    }
+
+    40% {
+        transform: rotate(-15deg);
+    }
 }
 
 
 /*BUTTON*/
-button{
-    background:transparent;
-    color:#3bd9d9;
-    font-weight:400;
-    font-size:24px;
-    text-transform:uppercase;
-    padding:16px 36px;
-    border:2px solid #3bd9d9;
-    border-radius:32px;
-    transform:translate(0);
-    overflow:hidden;
-    cursor:pointer;
+button {
+    background: transparent;
+    color: #3bd9d9;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 16px 36px;
+    border: 2px solid #3bd9d9;
+    border-radius: 32px;
+    transform: translate(0);
+    overflow: hidden;
+    cursor: pointer;
 }
-button::before{
-    content:"";
-    position:absolute;
-    background:#3bd9d9;
-    width:8px;
-    top:0;
-    bottom:0;
-    left:-32px;
-    transform:rotate(-16deg);
-    filter:blur(6px);
+
+button::before {
+    content: "";
+    position: absolute;
+    background: #3bd9d9;
+    width: 8px;
+    top: 0;
+    bottom: 0;
+    left: -32px;
+    transform: rotate(-16deg);
+    filter: blur(6px);
 }
-button:hover::before{
-    left:calc(100%  + 32px);
-    transition:0.75s;
+
+button:hover::before {
+    left: calc(100% + 32px);
+    transition: 0.75s;
 }
 
 /*SKILLS*/
 
-.skillsP{
+.skillsP {
     color: white;
+}
+
+/*ABOUT*/
+
+.aboutP {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+/*FOOTER*/
+.footerSub{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
 }
