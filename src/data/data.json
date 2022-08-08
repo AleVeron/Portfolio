@@ -19,7 +19,7 @@
         "name": "ReactJsAV",
         "image": "http://imgfz.com/i/LJjN5Im.png",
         "linkGithub": "https://github.com/AleVeron/ProyectoReactJSAV",
-        "linkDeploy": "",
+        "linkDeploy": "https://proyecto-react-jsav.vercel.app/",
         "technology": "https://digital55.com/wp-content/uploads/2022/01/%C2%BFQue%CC%81-cualidades-debe-tener-un-desarrollador-especialista-en-React.png"
         
     },
@@ -27,7 +27,7 @@
         "name": "MindyPetshop",
         "image": "http://imgfz.com/i/e7njywd.png",
         "linkGithub": "https://github.com/AleVeron/Mindy-Petshop",
-        "linkDeploy": "https://aleveron.github.io/Mindy-Petshop/",
+        "linkDeploy": "https://mindy-petshop-iota.vercel.app/",
         "technology": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
     },
 
@@ -42,7 +42,7 @@
         "name": "Amzg Events",
         "image": "http://imgfz.com/i/TLxBrgK.png",
         "linkGithub": "https://github.com/AleVeron/AmzingEvts",
-        "linkDeploy": "https://aleveron.github.io/AmzingEvts/",
+        "linkDeploy": "https://amazing-events-rust.vercel.app/",
         "technology": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
     }
 ]
