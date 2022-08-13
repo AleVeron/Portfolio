@@ -11,12 +11,11 @@ export default function Main() {
 
     useEffect(() => {
         Aos.init({ duration: 1500 });
+        console.log("Bienvenidos!");
     }, [])
 
     const proyects = data.proyects
-    console.log(show);
     const icons = skills.skills
-    console.log(icons);
 
     return (
 
