@@ -76,7 +76,7 @@ export default function Main() {
 
                 <div class="container mb-5 ">
 
-                    <div class="row g-2 text-center">
+                    <div class="row g-5 text-center">
                         {proyects.map((item, index) => (
 
                             <div key={index} class="col-lg-6 d-flex justify-content-center">
