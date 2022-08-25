@@ -16,7 +16,6 @@ export default function Main() {
 
     const proyects = data.proyects
     const icons = skills.skills
-    console.log("icons")
 
     return (
 
