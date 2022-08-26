@@ -1,6 +1,7 @@
 import AlejoVeronCurriculum from '../assets/AlejoVeronCurriculum.pdf'
 
 export default function Footer() {
+    console.log("testing");
     return (
 
         <>

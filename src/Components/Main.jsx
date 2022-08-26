@@ -11,12 +11,11 @@ export default function Main() {
 
     useEffect(() => {
         Aos.init({ duration: 1500 });
+        console.log("Bienvenidos!");
     }, [])
 
     const proyects = data.proyects
-    console.log(show);
     const icons = skills.skills
-    console.log(icons);
 
     return (
 
@@ -77,7 +76,7 @@ export default function Main() {
 
                 <div class="container mb-5 ">
 
-                    <div class="row g-5 text-center">
+                    <div class="row g-3 text-center">
                         {proyects.map((item, index) => (
 
                             <div key={index} class="col-lg-6 d-flex justify-content-center">
