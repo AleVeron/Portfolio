@@ -7,7 +7,7 @@ import skills from '../data/skills.json'
 
 export default function Main() {
 
-    const [show, setShow] = useState(false)
+    const [show, setShow] = useState(true)
 
     useEffect(() => {
         Aos.init({ duration: 1500 });
