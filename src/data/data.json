@@ -51,6 +51,13 @@
         "linkGithub": "https://github.com/AleVeron/AmzingEvts",
         "linkDeploy": "https://amazing-events-rust.vercel.app/",
         "technology": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    {
+        "name": "Burguer",
+        "image": "http://imgfz.com/i/toDLPMS.png",
+        "linkGithub": "https://github.com/AleVeron/Burguer",
+        "linkDeploy": "https://aleveron.github.io/Burguer/",
+        "technology": "https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw"
     }
 ]
 }
