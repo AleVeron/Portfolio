@@ -2,8 +2,10 @@ import AlejoVeronCurriculum from '../assets/AlejoVeronCurriculum.pdf'
 
 export default function Footer() {
     
+    console.log("footer")
+    
     return (
-
+        
         <>
 
             <div class="icons container-fluid d-flex justify-content-center align-items-center">
