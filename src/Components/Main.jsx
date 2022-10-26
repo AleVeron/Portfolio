@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import world from '../assets/world.mp4'
 import skills from '../data/skills.json'
 
+
 export default function Main() {
 
     const [show, setShow] = useState(true)
@@ -79,7 +80,8 @@ export default function Main() {
                     <div class="row g-3 text-center">
                         {proyects.map((item, index) => (
 
-                            <div key={index} class="col-lg-6 d-flex justify-content-center">
+                            <div data-aos="fade-up"
+                                data-aos-anchor-placement="top-bottom" key={index} class="col-lg-6 d-flex justify-content-center">
                                 <div class="card" style={{
                                     backgroundImage: `url("${item.image}")`,
                                     backgroundSize: "cover",
