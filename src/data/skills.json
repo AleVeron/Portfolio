@@ -53,5 +53,10 @@
         "url": "https://www.svgrepo.com/show/353869/heroku-icon.svg",
         "name": "Heroku",
         "id": 12
+    },
+    {
+        "url": "https://www.svgrepo.com/show/354259/react.svg",
+        "name": "React Native",
+        "id": 13
     }
 ]}
