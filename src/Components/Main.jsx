@@ -133,7 +133,7 @@ export default function Main() {
             {/* ABOUT */}
             <div id='about' className='pb-5'>
                 <h1 className='text-center heroSubtitle'>About</h1>
-                <p className='text-center container aboutP'>  ¡Hola! Soy Alejo Veron y vengo incursionando hace mas de 1 año en el mundo del desarrollo Web, tanto en el Front-End como en el Back-end. 🤓
+                <p className='text-center container aboutP'>  ¡Hola! Soy Alejo Veron y vengo incursionando hace mucho tiempo en el mundo del desarrollo Web y aplicaciones, tanto en el Front-End como en el Back-end. 🤓
                     Me especializo en el lenguaje de JavaScript, con conocimientos en Mongo, Express, React y NodeJs entre otros. Realize varios proyectos que podrán ver en mi GitHub 👇 y acabo egresar del boootcamp de Mindhub, el cual simula un entorno de trabajo real por mas de 600hs.
                     Gracias al mismo pude adquirir habilidades tanto de trabajo en equipo como sólidos hard skills bajo la metodología 'learning by doing'.
                     Me encuentro en la búsqueda de mi primera experiencia en el área IT y cuento con la confianza y los conocimientos suficientes para poder desarrollarme eficiente en el mismo.
