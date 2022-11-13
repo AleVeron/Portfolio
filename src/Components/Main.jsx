@@ -49,13 +49,13 @@ export default function Main() {
                 <h1 className='heroTitle text-center'>VERON ALEJO</h1>
                 <h2 className='heroSubtitle text-center'>FULL STACK DEVELOPER MERN</h2>
                 <div class="icons container-fluid d-flex p-3 justify-content-center align-items-center">
-                    <a href="https://github.com/AleVeron" class="icon icon--github">
+                    <a href="https://github.com/AleVeron" target="_blank" class="icon icon--github">
                         <i class="fa fa-github"></i>
                     </a>
                     <a href="mailto:alejoveron65@gmail.com" class="icon icon--google">
                         <i class="fa fa-google"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/alejo-veron-dev/" class="icon icon--linkedin">
+                    <a href="https://www.linkedin.com/in/alejo-veron-dev/" target="_blank" class="icon icon--linkedin">
                         <i class="fa fa-linkedin"></i>
                     </a>
 
@@ -106,7 +106,7 @@ export default function Main() {
 
                                                     <div class="d-flex flex-column p-1">
                                                         <h2 class="name">{item.name}</h2>
-                                                        <a className='linksMain' href={item.linkDeploy}>Link</a>
+                                                        <a target="_blank" className='linksMain' href={item.linkDeploy}>Link</a>
                                                     </div>
                                                     <div className='d-flex align-items-center me-2'>
                                                         <a className='linksMain' href={item.linkGithub}>

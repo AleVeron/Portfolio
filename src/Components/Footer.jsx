@@ -9,16 +9,16 @@ export default function Footer() {
         <>
 
             <div class="icons container-fluid d-flex justify-content-center align-items-center">
-                <a href="https://github.com/AleVeron" class="icon icon--github">
+                <a href="https://github.com/AleVeron" target="_blank" class="icon icon--github">
                     <i class="fa fa-github"></i>
                 </a>
-                <a href="#" class="icon icon--google">
+                <a href="mailto:alejoveron65@gmail.com" class="icon icon--google">
                     <i class="fa fa-google"></i>
                 </a>
-                <a href={AlejoVeronCurriculum} download class="icon icon--linkedin">
+                <a href={AlejoVeronCurriculum}  download class="icon icon--linkedin">
                     <img className='buttonCv' src="http://imgfz.com/i/9Yz4Ar6.png" alt="cv" />
                 </a>
-                <a href="https://www.linkedin.com/in/alejo-veron-dev/" class="icon icon--linkedin">
+                <a href="https://www.linkedin.com/in/alejo-veron-dev/" target="_blank" class="icon icon--linkedin">
                     <i class="fa fa-linkedin"></i>
                 </a>
             </div>
