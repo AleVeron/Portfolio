@@ -91,7 +91,7 @@ export default function Main() {
                                 }} >
 
 
-                                    <div className='divMask'>
+                                    <a className='divMask' target="_blank" href={item.linkDeploy}>
                                         <div class="d-flex justify-content-center align-items-center">
 
                                             <div class="info info-yellow d-flex col-8 justify-content-between">
@@ -104,12 +104,11 @@ export default function Main() {
 
                                                 <div className='d-flex col-8 justify-content-around'>
 
-                                                    <div class="d-flex flex-column p-1">
+                                                    <div class="d-flex align-items-center ">
                                                         <h2 class="name">{item.name}</h2>
-                                                        <a target="_blank" className='linksMain' href={item.linkDeploy}>Link</a>
                                                     </div>
                                                     <div className='d-flex align-items-center me-2'>
-                                                        <a className='linksMain' href={item.linkGithub}>
+                                                        <a className='linksMain'  href={item.linkGithub}>
                                                             <i class=" fa fa-github fa-fw fa-lg"></i></a>
                                                     </div>
 
@@ -117,7 +116,7 @@ export default function Main() {
                                             </div>
 
                                         </div>
-                                    </div>
+                                    </a>
 
 
                                 </div>

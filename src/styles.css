@@ -64,6 +64,7 @@ body {
     width: 100%;
     background-color: #090b0ca7;
     transition:all 2s ease;
+    text-decoration: none;
 }
 
 .divMask:hover {
@@ -110,6 +111,7 @@ body {
     font-style: italic;
     font-weight: bold;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .designation {
