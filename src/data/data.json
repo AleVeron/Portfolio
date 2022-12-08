@@ -12,7 +12,7 @@
         "name": "MyTinerary",
         "image": "http://imgfz.com/i/IBRy7Uj.png",
         "linkGithub": "https://github.com/AleVeron/mytinerary-veron",
-        "linkDeploy": "https://mytinerary-veron.herokuapp.com/home",
+        "linkDeploy": "https://mytinerary-veron-front.vercel.app/",
         "technology": "https://static.platzi.com/media/blog/mern-stack-284eedb6-ee6b-4441-b181-5064a453a15a.png"
     },
     {
