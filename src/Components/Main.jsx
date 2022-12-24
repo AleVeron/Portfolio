@@ -147,7 +147,7 @@ export default function Main() {
 
                 {icons.map(item =>
                     <div key={item.id} className='d-flex flex-column align-items-center justify-content-center'>
-                        <img className='col-4 col-md-6' src={item.url} alt={item.name} />
+                        <img className='col-4 col-md-6 skills' src={item.url} alt={item.name} />
                         <p className='skillsP p-2'>{item.name}</p>
                     </div>
                 )}

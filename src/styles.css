@@ -232,6 +232,12 @@ button:hover::before {
     color: white;
 }
 
+.skills{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
 /*ABOUT*/
 
 .aboutP {
