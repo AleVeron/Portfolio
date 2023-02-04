@@ -4,6 +4,7 @@ import "aos/dist/aos.css"
 import { useState, useEffect } from 'react';
 import world from '../assets/world.mp4'
 import skills from '../data/skills.json'
+import { UncontrolledTooltip } from 'reactstrap';
 
 
 export default function Main() {
@@ -49,15 +50,24 @@ export default function Main() {
                 <h1 className='heroTitle text-center'>VERON ALEJO</h1>
                 <h2 className='heroSubtitle text-center'>FULL STACK DEVELOPER MERN</h2>
                 <div class="icons container-fluid d-flex p-3 justify-content-center align-items-center">
-                    <a href="https://github.com/AleVeron" target="_blank" class="icon icon--github">
+                    <a href="https://github.com/AleVeron" target="_blank" id="github" class="icon icon--github">
                         <i class="fa fa-github"></i>
                     </a>
-                    <a href="mailto:alejoveron65@gmail.com" class="icon icon--google">
+                    <UncontrolledTooltip placement="top" target="github">
+                        Github
+                    </UncontrolledTooltip>
+                    <a href="mailto:alejoveron65@gmail.com" id='google' class="icon icon--google">
                         <i class="fa fa-google"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/alejo-veron-dev/" target="_blank" class="icon icon--linkedin">
+                    <UncontrolledTooltip placement="top" target="google">
+                        Email
+                    </UncontrolledTooltip>
+                    <a href="https://www.linkedin.com/in/alejo-veron-dev/" target="_blank" id='lin' class="icon icon--linkedin">
                         <i class="fa fa-linkedin"></i>
                     </a>
+                    <UncontrolledTooltip placement="top" target="lin">
+                        Linkedin
+                    </UncontrolledTooltip>
 
                 </div>
 
@@ -108,7 +118,7 @@ export default function Main() {
                                                         <h2 class="name">{item.name}</h2>
                                                     </div>
                                                     <div className='d-flex align-items-center me-2'>
-                                                        <a className='linksMain'  href={item.linkGithub}>
+                                                        <a className='linksMain' href={item.linkGithub}>
                                                             <i class=" fa fa-github fa-fw fa-lg"></i></a>
                                                     </div>
 
