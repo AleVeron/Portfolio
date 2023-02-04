@@ -19,24 +19,24 @@ export default function Navbar() {
                             <li class="nav-item"> <a class="nav-link" href="#skills">Skills</a></li>
                         </ul>
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item mx-1"> <a class="nav-link" id='git' target="_blank" href="https://github.com/AleVeron">
+                            <li class="nav-item mx-1"> <a class="nav-link" id='gits' target="_blank" href="https://github.com/AleVeron">
                                 <i class="fa fa-github fa-fw fa-lg"></i>
                             </a>
-                                <UncontrolledTooltip placement="bottom" target="git">
+                                <UncontrolledTooltip placement="bottom" target="gits">
                                     Github
                                 </UncontrolledTooltip>
                             </li>
-                            <li class="nav-item mx-1"> <a class="nav-link" id='cv' target="_blank" href={AlejoVeronCurriculum} download>
+                            <li class="nav-item mx-1"> <a class="nav-link" id='cve' target="_blank" href={AlejoVeronCurriculum} download>
                                 <i class="fa fa-dropbox fa-fw fa-lg"></i>
                             </a>
-                                <UncontrolledTooltip placement="bottom" target="cv">
+                                <UncontrolledTooltip placement="bottom" target="cve">
                                     Github
                                 </UncontrolledTooltip>
                             </li>
-                            <li class="nav-item mx-1"> <a class="nav-link" id='linkedin' target="_blank" href="https://www.linkedin.com/in/alejo-veron-dev/">
+                            <li class="nav-item mx-1"> <a class="nav-link" id='linkedine' target="_blank" href="https://www.linkedin.com/in/alejo-veron-dev/">
                                 <i class="fa fa-linkedin fa-fw fa-lg"></i>
                             </a>
-                                <UncontrolledTooltip placement="bottom" target="linkedin">
+                                <UncontrolledTooltip placement="bottom" target="linkedine">
                                     Github
                                 </UncontrolledTooltip>
                             </li>
