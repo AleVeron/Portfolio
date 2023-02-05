@@ -5,7 +5,7 @@
         "name": "DAFTLAB",
         "image": "http://imgfz.com/i/Cs1dU7f.png",
         "linkGithub": "https://github.com/AleVeron/DAFTLAB",
-        "linkDeploy": "https://daftlab.herokuapp.com/",
+        "linkDeploy": "https://daftlab-front.vercel.app/",
         "technology": "https://static.platzi.com/media/blog/mern-stack-284eedb6-ee6b-4441-b181-5064a453a15a.png"
     },
     {
