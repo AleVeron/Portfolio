@@ -3,13 +3,13 @@ import AlejoVeronCurriculum from '../assets/AlejoVeronCurriculum.pdf'
 
 export default function Footer() {
 
-    console.log("test")
-
     return (
 
-        <>
+        <div style={{
+            minHeight:55
+        }} className='d-flex flex-column flex-sm-row justify-content-around align-items-center'>
 
-            <div class="icons container-fluid d-flex justify-content-center align-items-center">
+            <div class="icons d-flex pb-3">
                 <a href="https://github.com/AleVeron" target="_blank" id='github' class="icon icon--github">
                     <i class="fa fa-github"></i>
                 </a>
@@ -36,11 +36,10 @@ export default function Footer() {
                 </UncontrolledTooltip>
             </div>
             <div className="d-flex flex-column ">
-                <h2 className="footerSub text-center pb-4">Created by Veron Alejo</h2>
-                <a class="navbar-brand text-white mb-3 text-center" href="#navBar">Top</a>
+                <h2 className="footerSub text-center">Created by Veron Alejo</h2>
             </div>
 
-        </>
+        </div>
 
     )
 }

@@ -14,7 +14,10 @@
 /*HERO*/
 
 .hero {
-    height: 100vh;
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .heroTitle {
@@ -87,6 +90,12 @@ body {
     background-color: #484848c0;
 }
 
+.proyects{
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 
 .user-icons {
     width: 60px;
@@ -126,7 +135,6 @@ body {
 .icons {
     column-gap: 25px;
     background-color: transparent;
-    height: 200px;
 }
 
 .icon {

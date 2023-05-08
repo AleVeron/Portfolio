@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import AlejoVeronCurriculum from '../assets/AlejoVeronCurriculum.pdf'
 
 export default function Navbar() {
@@ -12,10 +13,9 @@ export default function Navbar() {
                     </button>
                     <div class="collapse navbar-collapse justify-content-around" id="navbar20">
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item"> <a class="nav-link" href="#home">Home</a></li>
-                            <li class="nav-item"> <a class="nav-link" href="#Proyects">Proyects</a></li>
-                            <li class="nav-item"> <a class="nav-link" href="#about">About</a></li>
-                            <li class="nav-item"> <a class="nav-link" href="#skills">Skills</a></li>
+                            <li class="nav-item"> <Link class="nav-link" to="/">Home</Link></li>
+                            <li class="nav-item"> <Link class="nav-link" to={"/proyects"}>Proyects</Link></li>
+                            <li class="nav-item"> <Link class="nav-link" to={"/about"}>About</Link></li>
                         </ul>
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item mx-1"> <a class="nav-link" id='git' target="_blank" href="https://github.com/AleVeron">
