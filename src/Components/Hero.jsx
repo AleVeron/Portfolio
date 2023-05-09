@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react'
 import world from '../assets/world.mp4'
-import { UncontrolledTooltip } from 'reactstrap';
+import { Button, UncontrolledTooltip } from 'reactstrap';
 import Aos from 'aos'
 import "aos/dist/aos.css"
+import { Link, Navigate } from 'react-router-dom';
 
 const Hero = () => {
     useEffect(() => {
@@ -36,7 +37,7 @@ const Hero = () => {
                 <h1 className='heroTitle text-center'>VERON ALEJO</h1>
                 <h2 className='heroSubtitle text-center'>FULL STACK DEVELOPER MERN</h2>
                 <div className="icons container-fluid d-flex p-3 justify-content-center align-items-center">
-                    <a href="https://github.com/AleVeron" target="_blank" id="github" className="icon icon--github">
+                    {/*                    <a href="https://github.com/AleVeron" target="_blank" id="github" className="icon icon--github">
                         <i className="fa fa-github"></i>
                     </a>
                     <UncontrolledTooltip placement="top" target="github">
@@ -53,8 +54,10 @@ const Hero = () => {
                     </a>
                     <UncontrolledTooltip placement="top" target="lin">
                         Linkedin
-                    </UncontrolledTooltip>
-
+                    </UncontrolledTooltip> */}
+                    <Link to={'/proyects'}>
+                        <Button className='button'>Know My Projects</Button>
+                    </Link>
                 </div>
 
             </div>
