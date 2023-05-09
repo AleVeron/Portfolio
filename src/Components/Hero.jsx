@@ -30,26 +30,26 @@ const Hero = () => {
             </video>
 
             {/* HERO */}
-            <div id='home' className='hero container d-flex flex-column justify-content-center align-items-center' data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom">
+            <div id='home' className='hero container d-flex flex-column justify-content-center align-items-center' data-aos="fade-right"
+                data-aos-anchor-placement="left-right">
 
                 <h1 className='heroTitle text-center'>VERON ALEJO</h1>
                 <h2 className='heroSubtitle text-center'>FULL STACK DEVELOPER MERN</h2>
-                <div class="icons container-fluid d-flex p-3 justify-content-center align-items-center">
-                    <a href="https://github.com/AleVeron" target="_blank" id="github" class="icon icon--github">
-                        <i class="fa fa-github"></i>
+                <div className="icons container-fluid d-flex p-3 justify-content-center align-items-center">
+                    <a href="https://github.com/AleVeron" target="_blank" id="github" className="icon icon--github">
+                        <i className="fa fa-github"></i>
                     </a>
                     <UncontrolledTooltip placement="top" target="github">
                         Github
                     </UncontrolledTooltip>
-                    <a href="mailto:alejoveron65@gmail.com" id='google' class="icon icon--google">
-                        <i class="fa fa-google"></i>
+                    <a href="mailto:alejoveron65@gmail.com" id='google' className="icon icon--google">
+                        <i className="fa fa-google"></i>
                     </a>
                     <UncontrolledTooltip placement="top" target="google">
                         Email
                     </UncontrolledTooltip>
-                    <a href="https://www.linkedin.com/in/alejo-veron-dev/" target="_blank" id='lin' class="icon icon--linkedin">
-                        <i class="fa fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/alejo-veron-dev/" target="_blank" id='lin' className="icon icon--linkedin">
+                        <i className="fa fa-linkedin"></i>
                     </a>
                     <UncontrolledTooltip placement="top" target="lin">
                         Linkedin
