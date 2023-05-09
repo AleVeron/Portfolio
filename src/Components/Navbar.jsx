@@ -5,13 +5,9 @@ export default function Navbar() {
     return (
 
         <>
-            <nav className="navbar navbar-expand-md navbar-dark bg-primary" id="navBar">
+            <nav className="navbar navbar-expand navbar-dark bg-primary" id="navBar">
                 <div className="container-fluid">
-                    <button className="navbar-toggler navbar-toggler-right border-0 p-0" type="button" data-toggle="collapse" data-target="#navbar20">
-                        <p className="navbar-brand text-white mb-0">
-                            <i className="fa d-inline fa-lg fa-stop-circle"></i> Portfolio </p>
-                    </button>
-                    <div className="collapse navbar-collapse justify-content-around" id="navbar20">
+                    <div className="navbar-collapse justify-content-around" id="navbar20">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item"> <Link className="nav-link" to="/">Home</Link></li>
                             <li className="nav-item"> <Link className="nav-link" to={"/proyects"}>Proyects</Link></li>
