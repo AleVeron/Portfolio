@@ -31,26 +31,11 @@
         
     },
     {
-        "name": "MindyPetshop",
-        "image": "http://imgfz.com/i/e7njywd.png",
-        "linkGithub": "https://github.com/AleVeron/Mindy-Petshop",
-        "linkDeploy": "https://mindy-petshop-iota.vercel.app/",
-        "technology": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
-    },
-
-    {
         "name": "FutureGamers",
         "image": "http://imgfz.com/i/lk4pVq5.png",
         "linkGithub": "https://github.com/AleVeron/FutureGamers",
         "linkDeploy": "https://aleveron.github.io/FutureGamers/",
         "technology": "https://w7.pngwing.com/pngs/567/860/png-transparent-html-computer-icons-web-development-single-page-application-circle-logo-thumbnail.png"
-    },
-    {
-        "name": "Amzg Events",
-        "image": "http://imgfz.com/i/TLxBrgK.png",
-        "linkGithub": "https://github.com/AleVeron/AmzingEvts",
-        "linkDeploy": "https://amazing-events-rust.vercel.app/",
-        "technology": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
     },
     {
         "name": "Burguer",
